@@ -1,4 +1,6 @@
 import pandas as pd 
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 df = pd.read_csv('Loan Data Set')
 
@@ -15,9 +17,6 @@ categorical_columns = ['Gender', 'Married', 'Dependents', 'Education', 'Self_Emp
 
 numerical_columns = ['ApplicantIncome', 'CoapplicantIncome', 'LoanAmount']
 
-
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 
 fig,axes = plt.subplots(4,2,figsize=(13,15))
