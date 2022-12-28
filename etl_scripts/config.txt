@@ -1,0 +1,11 @@
+***if you want to use LOAD DATA LOCAL INFILE***
+***your MySQL config file will need this***
+
+[mysqld]
+local_infile=true
+secure-file-priv = ""
+
+[client]
+loose-local-infile=true
+AllowLoadLocalInfile=true
+Local=true
