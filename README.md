@@ -1,3 +1,5 @@
-# Loan_Approval_Prediction
+# Loan_Data_ETL_Approval_Prediction
 
-Classification model that will determine loan approval 
+ETL that gets data using Kaggle API, transforms features, and loads into a MySQL database table. 
+
+Classification models that will determine loan approval 
